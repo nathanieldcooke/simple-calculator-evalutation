@@ -1,8 +1,14 @@
+// App.js
 import React from 'react';
+import Calculator from './Calculator';
 
-function App() {
+
+const App = () => {
   return (
-    <h1>Hello world!</h1>
+    <div className="App">
+      <h1>Calculator</h1>
+      <Calculator />
+    </div>
   );
 }
 
